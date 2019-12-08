@@ -41,7 +41,7 @@ public class RomanRow {
 	public static int deduc(String a, String z){
 		int c = -10;
 			if (RomanRow.num(a)>0 && RomanRow.num(z)>0){
-				c = RomanRow.num(a) - ArabRow.num(z);} 
+				c = RomanRow.num(a) - RomanRow.num(z);} 
 		return c;}
 		
 // below method returns product of two numbers each valued from 1 to 10 only, otherwise returns -1	
